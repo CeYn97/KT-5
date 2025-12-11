@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Факты о собаках</h1>
+  <dog-widget></dog-widget>
+  <dog-widget mode="auto" refresh="5"></dog-widget>
+
+  <script>
+    const widget = new DogWidget({ mode: 'auto', refresh: 8 });
+    document.body.appendChild(widget);
+  </script>
+</body>
+</html>

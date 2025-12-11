@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 1.5rem;
+  background: #f4f5fb;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+dog-widget {
+  --dog-widget-bg: #ffffff;
+  --dog-widget-color: #222222;
+  --dog-widget-font-size: 16px;
+  --dog-widget-border-radius: 14px;
+  --dog-widget-button-bg: #ff8c42;
+  --dog-widget-button-color: #ffffff;
+
+  margin-right: 1rem;
+}
+
+dog-widget:nth-of-type(2) {
+  --dog-widget-bg: #fff7f0;
+  --dog-widget-color: #3a2a1c;
+  --dog-widget-button-bg: #ffb347;
+}
+
